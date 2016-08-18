@@ -1,9 +1,9 @@
 {
-  "name": "DialogNodejsStarterApp",
-  "version": "0.1.8",
+  "name": "dialog-demo",
+  "version": "1.1.8",
   "description": "A sample nodejs app for Bluemix that use the Dialog",
   "engines": {
-    "node": ">=0.10.38"
+    "node": ">=4.4"
   },
   "repository": {
     "type": "git",
@@ -29,15 +29,11 @@
     "url": "https://github.com/watson-developer-cloud/dialog-nodejs/issues"
   },
   "scripts": {
-    "start": "node app.js",
-    "postinstall": "node dialogs/install-dialogs.js"
+    "start": "node app.js"
   },
   "dependencies": {
-    "async": "^1.5.1",
     "body-parser": "~1.14.1",
     "errorhandler": "~1.4.1",
-    "express": "~4.13.3",
-    "request": "^2.67.0",
-    "watson-developer-cloud": "~1.0.6"
+    "express": "~4.13.3"
   }
 }

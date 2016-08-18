@@ -1,13 +1,5 @@
-declared-services:
-  dialog-service:
-    label: dialog
-    plan: standard
 applications:
-- services:
-  - dialog-service
-  name: dialog-nodejs
-  command: node app.js
+- name: dialog-nodejs
+  command: npm start
   path: .
   memory: 512M
-  env:
-    NODE_ENV: production
